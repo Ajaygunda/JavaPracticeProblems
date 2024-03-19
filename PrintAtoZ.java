@@ -3,12 +3,12 @@ package PracticeProblems;
 public class PrintAtoZ {
 
     public static void main(String[] args) {
+        char ch;
+        for (ch = 'A'; ch <= 'Z'; ch++) {
 
-        for (int i = 97; i <= 122; i++) {
+            System.out.print(ch);
 
-            System.out.print((char) i + " ");
         }
-
 
     }
 }
